@@ -8,7 +8,7 @@ curl 127.0.0.1:8080/book/<BAY NO.(1-4)>/<NAME>/<DATE(DD:MM:YYYY)>
 
 > API for for admin to watch all bookings
 ```bash
-curl 127.0.0.1:8080/dev
+curl 127.0.0.1:8080/dev/<DATE(DD:MM:YYYY)>
 ```
 > API data structure: { DATE: {  SPOT: { "name" : NAME }  }  }
 
