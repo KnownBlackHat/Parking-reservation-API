@@ -1,6 +1,6 @@
 # Parking-reservation-API
 
-
+## Overview
 > API for booking
 ```bash
 curl 127.0.0.1:8080/book/<BAY NO.(1-4)>/<NAME>/<DATE(DD:MM:YYYY)>
@@ -11,6 +11,12 @@ curl 127.0.0.1:8080/book/<BAY NO.(1-4)>/<NAME>/<DATE(DD:MM:YYYY)>
 curl 127.0.0.1:8080/dev
 ```
 > API data structure: { DATE: {  SPOT: { "name" : NAME }  }  }
+
+## How to setup this api?
++ Clone this into your current working directory
++ Install required modules by `pip install -r requirements.txt` command
++ Launch API server by `python api.py` command
+
 
 ## Examples
 
